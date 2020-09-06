@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:setstate_vs_value/screens/set_state.dart';
+import 'package:setstate_vs_value/screens/value_notif.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SetStateExample(),
+      home: ValueNotif(),
     );
   }
 }
